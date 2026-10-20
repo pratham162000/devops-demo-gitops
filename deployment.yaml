@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: devops-demo-app
-        image: pratham162000/devops-demo-app:v0.1.0  # ⚠️ CHANGE THIS
+        image: pratham162000/devops-demo-app:e1eeb54
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
